@@ -32,7 +32,7 @@ const submitToNetwork = async (signedTxn) => {
 
 (async () => {
   // Compile to TEAL
-  const filePath = path.join(__dirname, "../artifacts/escrow.teal");
+  const filePath = path.join(__dirname, "../../artifacts/escrow.teal");
   const data = fs.readFileSync(filePath);
   const compiledProgram = await algodClient.compile(data).do();
 

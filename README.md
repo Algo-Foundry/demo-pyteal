@@ -12,7 +12,7 @@ If you choose to compile the PyTeal file using Makefile, the TEAL file `escrow.t
 yarn install
 ```
 
-### Update environement variables
+### Update environment variables
 1. Copy `.env.example` to `.env`.
 2. Update Algorand Sandbox credentials in `.env` file.
 3. Run `source .env` in the project directory
@@ -34,5 +34,5 @@ make escrow
 
 ### Run script to fund the escrow contract without Algo Builder
 ```
-node scripts/escrow-no-ab.js
+node scripts/actions/escrow-no-ab.js
 ```

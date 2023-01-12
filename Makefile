@@ -1,2 +1,2 @@
 escrow:
-	python3 ./assets/escrow.py > ./artifacts/escrow.teal "{"RECEIVER_ADDRESS": "WHVQXVVCQAD7WX3HHFKNVUL3MOANX3BYXXMEEJEJWOZNRXJNTN7LTNPSTY"}"
+	python3 ./assets/escrow.py > ./artifacts/escrow.teal "{"RECEIVER_ADDRESS": "ZV4AZNH7EZK5XXL5KH6SF2BJW3GGXLSWJCUL2EGCIG3ITAIX2PEXQQLFCE"}"

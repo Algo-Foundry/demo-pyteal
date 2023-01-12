@@ -9,7 +9,7 @@ async function run (runtimeEnv, deployer) {
 
   // RECEIVER_ADDRESS is set in escrow.py when it is compiled from PyTEAL to TEAL
   const templateParams = {
-    RECEIVER_ADDRESS: 'WHVQXVVCQAD7WX3HHFKNVUL3MOANX3BYXXMEEJEJWOZNRXJNTN7LTNPSTY'
+    RECEIVER_ADDRESS: 'ZV4AZNH7EZK5XXL5KH6SF2BJW3GGXLSWJCUL2EGCIG3ITAIX2PEXQQLFCE'
   };
   await deployer.fundLsigByFile('escrow.py',
     { funder: deployer.accounts[0], fundingMicroAlgo: 20e6 }, { fee: 1000 }, templateParams);

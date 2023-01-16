@@ -55,5 +55,8 @@ const submitToNetwork = async (signedTxn) => {
   // sign the transaction
   const signedTxn = txn.signTxn(master.sk);
 
-  return await submitToNetwork(signedTxn);
+  await submitToNetwork(signedTxn);
+
+  // print the balance
+  console.log(await algodClient.accountInformation(lsig.address()).do());
 })();

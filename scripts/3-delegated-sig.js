@@ -39,7 +39,7 @@ async function run (runtimeEnv, deployer) {
   const balanceAfter = await deployer.algodClient.accountInformation(master.addr).do();
 
   // diff
-  console.log("diff:", balanceAfter.amount - balanceBefore.amount);
+  console.log("diff:", balanceBefore.amount - balanceAfter.amount);
 }
 
 module.exports = { default: run };
